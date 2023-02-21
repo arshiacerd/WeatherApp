@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  background-image: url("../assets/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#searchBar{
+    background-color: #7c7c7c2b;
+    color: white;
+}
+#searchBar::placeholder{
+    color: rgb(122, 100, 100);
+}
+
+.card-body {
+  align-items: flex-start;
+  padding: 30px;
+}
+.card {
+  background-color: #000000;
+  color: white;
+  border-radius: 25px;
+}
